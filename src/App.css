@@ -1,0 +1,85 @@
+@charset 'utf-8';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.pz-app {
+  float: left;
+  padding: 30px;
+  width: 100%;
+}
+
+.pz-search {
+  margin-bottom: 30px;
+}
+
+.pz-search input {
+  font-size: 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.pz-user-container img {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-height: 200px;
+}
+
+.pz-repos-info li {
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pz-actions,
+.pz-repos,
+.pz-starred {
+  float: left;
+  width: 100%;
+}
+
+.pz-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pz-actions button {
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+  text-transform: uppercase;
+  width: 48%;
+}
+
+.pz-repos li,
+.pz-starred li {
+  padding: 10px 0;
+}
+
+.pz-repos li + li,
+.pz-starred li + li {
+  border-top: 1px solid #ccc;
+}
+
+.pz-error-message {
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.pz-loading {
+  color: blueviolet;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
