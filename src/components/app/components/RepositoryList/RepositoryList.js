@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import RepositoryItem from "./RepositoryItem";
+import RepositoryItem from "./components/RepositoryItem/RepositoryItem";
 
 const RepositoryList = ({ className, title, repos }) => (
   <div className="pz-repos">

@@ -1,11 +1,13 @@
 import PropTypes from "prop-types";
 import React from "react";
-import Actions from "./Actions";
-import ErrorMessage from "./ErrorMessage";
-import Loading from "./Loading";
-import RepositoryList from "./RepositoryList";
-import Search from "./Search";
-import UserInfo from "./UserInfo";
+import {
+  Actions,
+  ErrorMessage,
+  Loading,
+  RepositoryList,
+  Search,
+  UserInfo
+} from "./index";
 
 const AppContent = props => {
   const {

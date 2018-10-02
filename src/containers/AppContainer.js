@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AppContent from "../components/AppContent";
+import { AppContent } from "../components/app";
 import { getUserInfo, getUserRepository } from "../services/gitService";
 
 class AppContainer extends Component {
